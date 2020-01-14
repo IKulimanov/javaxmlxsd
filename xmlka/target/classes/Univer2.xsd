@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="univer" type="infuniver"/>    
+       
+    <xs:complexType name="infuniver">
+        <xs:sequence>
+            <xs:element name = "nameuniver" type="xs:string" />
+            <xs:element name="godosnovania" type="xs:string" />
+            <xs:element name="fakultet" type="inffac" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType> 
+         
+    <xs:complexType name="inffac" >
+        <xs:sequence>
+            <xs:element name = "namefak" type="xs:string" />
+            <xs:element name = "dekan" type="infoperson" />
+            <xs:element name="napravlenie" type="infnapr" maxOccurs="unbounded"/>
+        </xs:sequence> 
+    </xs:complexType>
+                    
+    <xs:complexType name="infnapr">
+        <xs:sequence>
+            <xs:element name = "namenapr" type="xs:string"/>
+            <xs:element name = "id" type="xs:integer"/>
+            <xs:element name="predmet" type="infpredmet" maxOccurs="20"/>
+            <xs:element name="student" type="infoperson" maxOccurs="200"/>
+        </xs:sequence> 
+    </xs:complexType>
+
+    <xs:complexType name="infpredmet">
+        <xs:sequence>
+            <xs:element name = "namepredmet" type="xs:string"/>
+            <xs:element name = "numaudit" type="xs:integer"/>
+            <xs:element name="prepod" type="infoperson"/>
+        </xs:sequence> 
+    </xs:complexType>
+    
+    <xs:complexType name="infoperson">
+        <xs:sequence>
+            <xs:element name = "firstname" type="xs:string"/>
+            <xs:element name = "midlename" type="xs:string"/>
+            <xs:element name = "lastname" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+                 
+
+</xs:schema> 

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><univer xmlns:xsi="Univer.xsd">
+
+    <nameuniver>Рыбинский Государственный Авиационный Технический Университет</nameuniver>
+    <godosnovania>10.02.1932</godosnovania>
+    <fakultet>
+        <namefak>Радиоэлектроники и информатики</namefak>
+        <dekan>
+            <firstname>Алексей</firstname>
+            <midlename>Николаевич</midlename>
+            <lastname>Ломанов</lastname>
+        </dekan>
+        <napravlenie>
+            <namenapr>Информатика и вычислительная техника</namenapr>
+            <id>11</id>
+            <predmet>
+            <namepredmet>Сети и телекоммуникации</namepredmet>
+            <numayudit>417</numayudit>
+            <prepod>
+                <firstname>Роман</firstname>
+                <midlename>Алексеевич</midlename>
+                <lastname>Малышев</lastname>
+            </prepod>
+            </predmet>
+            <predmet>
+            <namepredmet>Архитектура ЭВМ</namepredmet>
+            <numayudit>403</numayudit>
+            <prepod>
+                <firstname>Роман</firstname>
+                <midlename>Владимирович</midlename>
+                <lastname>Павлов</lastname>
+            </prepod>
+            </predmet>
+            <student>
+                <firstname>Иван</firstname>
+                <midlename>Иванович</midlename>
+                <lastname>Иванов</lastname>
+            </student>
+            <student>
+                <firstname>Мария</firstname>
+                <midlename>Александровна</midlename>
+                <lastname>Петрова</lastname>
+            </student>
+        </napravlenie>
+        <napravlenie>
+            <namenapr>Программная инженерия</namenapr>
+            <id>12</id>
+            <predmet>
+            <namepredmet>Конструирование компиляторов</namepredmet>
+            <numayudit>511</numayudit>
+            <prepod>
+                <firstname>Владимир</firstname>
+                <midlename>Николаевич</midlename>
+                <lastname>Пинаев</lastname>
+            </prepod>
+            </predmet>
+            <predmet>
+            <namepredmet>Современные технологии промышленной разработки ПО</namepredmet>
+            <numayudit>407</numayudit>
+            <prepod>
+                <firstname>Максим</firstname>
+                <midlename>Леонидович</midlename>
+                <lastname>Волков</lastname>
+            </prepod>
+            </predmet>
+            <student>
+                <firstname>Иван</firstname>
+                <midlename>Иванович</midlename>
+                <lastname>Петров</lastname>
+            </student>
+            <student>
+                <firstname>Мария</firstname>
+                <midlename>Александровна</midlename>
+                <lastname>Иванова</lastname>
+            </student>
+        </napravlenie>
+    </fakultet>
+    <fakultet>
+        <namefak>Авиадвигателестроения</namefak>
+        <dekan>
+            <firstname>Александр</firstname>
+            <midlename>Игоревич</midlename>
+            <lastname>Гурьянов</lastname>
+        </dekan>
+        <napravlenie>
+            <namenapr>Машиностроение</namenapr>
+            <id>21</id>
+            <predmet>
+            <namepredmet>Теория механизмов и машин</namepredmet>
+            <numayudit>111</numayudit>
+            <prepod>
+                <firstname>Владимир</firstname>
+                <midlename>Николаевич</midlename>
+                <lastname>Астафьев</lastname>
+            </prepod>
+            </predmet>
+            <predmet>
+            <namepredmet>Кузнечно-штамповочное оборудование</namepredmet>
+            <numayudit>117</numayudit>
+            <prepod>
+                <firstname>Максим</firstname>
+                <midlename>Леонидович</midlename>
+                <lastname>Иванов</lastname>
+            </prepod>
+            </predmet>
+            <student>
+                <firstname>Никита</firstname>
+                <midlename>Иванович</midlename>
+                <lastname>Смирнов</lastname>
+            </student>
+            <student>
+                <firstname>Владимир</firstname>
+                <midlename>Александрович</midlename>
+                <lastname>Петров</lastname>
+            </student>
+        </napravlenie>
+        <napravlenie>
+            <namenapr>Конструкторско-технологическое обеспечение машиностроительных производств</namenapr>
+            <id>22</id>
+            <predmet>
+            <namepredmet>Процессы и операции формообразования</namepredmet>
+            <numayudit>111</numayudit>
+            <prepod>
+                <firstname>Анатолий</firstname>
+                <midlename>Николаевич</midlename>
+                <lastname>Бурдюков</lastname>
+            </prepod>
+            </predmet>
+            <predmet>
+            <namepredmet>Сопротивление материалов</namepredmet>
+            <numayudit>117</numayudit>
+            <prepod>
+                <firstname>Максим</firstname>
+                <midlename>Вячеславович</midlename>
+                <lastname>Горелый</lastname>
+            </prepod>
+            </predmet>
+            <student>
+                <firstname>Анастасия</firstname>
+                <midlename>Ивановна</midlename>
+                <lastname>Смирнова</lastname>
+            </student>
+            <student>
+                <firstname>Роман</firstname>
+                <midlename>Александрович</midlename>
+                <lastname>Утюгов</lastname>
+            </student>
+        </napravlenie>
+    </fakultet>
+<nameuniver>RSATU</nameuniver></univer>

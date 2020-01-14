@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name = "galaxy" type= "galtype"/>
+
+<xs:complexType name="galtype">
+	<xs:sequence>
+		<xs:element name="namegalaxy" type="xs:string"/>
+        <xs:element name="agegalaxy" type="xs:string"/>
+        <xs:element name="typegalaxy" type="xs:string"/>
+        <xs:element name="planetsystem" type="plansystype" maxOccurs="unbounded"/>
+	</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="plansystype">
+	<xs:sequence>
+		<xs:element name="nameplanetsystem" type="xs:string"/>
+        <xs:element name="planet" type="plantype" maxOccurs="unbounded"/>
+		<xs:element name="star" type="startype" maxOccurs="unbounded" minOccurs="0"/>
+		<xs:element name="comet" type="comettype" maxOccurs="unbounded" minOccurs="0"/>
+	</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="plantype">
+	<xs:sequence>
+		<xs:element name="nameplanet" type="xs:string"/>
+        <xs:element name="ageplanet" type="xs:string"/>
+        <xs:element name="typeplanet" type="xs:string"/>
+        <xs:element name="sputnik" type="sputtype" maxOccurs="unbounded" minOccurs="0"/>
+	</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="startype">
+	<xs:sequence>
+		<xs:element name="namestar" type="xs:string"/>
+        <xs:element name="classstar" type="xs:string"/>
+        <xs:element name="agestar" type="xs:string"/>
+	</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="comettype">
+	<xs:sequence>
+		<xs:element name="namecomet" type="xs:string"/>
+        <xs:element name="prefix" type="xs:string"/>
+	</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="sputtype">
+	<xs:sequence>
+		<xs:element name="namesputnik" type="xs:string"/>
+        <xs:element name="agesputnik" type="xs:string"/>
+	</xs:sequence>
+</xs:complexType>
+</xs:schema>

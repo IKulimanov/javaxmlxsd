@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:element name = "galaxy">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="namegalaxy" type="xsd:string"/>
+                <xsd:element name="agegalaxy" type="xsd:string"/>
+                <xsd:element name="typegalaxy" type="xsd:string"/>
+                <xsd:element name="planetsystem" maxOccurs="unbounded">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="nameplanetsystem" type="xsd:string"/>
+                            <xsd:element name="planet" maxOccurs="unbounded">
+                                <xsd:complexType>
+                                    <xsd:sequence>
+                                        <xsd:element name="nameplanet" type="xsd:string"/>
+                                        <xsd:element name="ageplanet" type="xsd:string"/>
+                                        <xsd:element name="typeplanet" type="xsd:string"/>
+                                        <xsd:element name="sputnik" maxOccurs="unbounded" minOccurs="0">
+                                            <xsd:complexType>
+                                                <xsd:sequence>
+                                                    <xsd:element name="namesputnik" type="xsd:string"/>
+                                                    <xsd:element name="agesputnik" type="xsd:string"/>
+                                                </xsd:sequence>
+                                            </xsd:complexType>
+                                        </xsd:element>
+                                    </xsd:sequence>
+                                </xsd:complexType>
+                            </xsd:element>
+                            <xsd:element name="star" maxOccurs="unbounded" minOccurs="0">
+                                <xsd:complexType>
+                                    <xsd:sequence>
+                                        <xsd:element name="namestar" type="xsd:string"/>
+                                        <xsd:element name="classstar" type="xsd:string"/>
+                                        <xsd:element name="agestar" type="xsd:string"/>
+                                    </xsd:sequence>
+                                </xsd:complexType>
+                            </xsd:element>
+                            <xsd:element name="comet" maxOccurs="unbounded" minOccurs="0">
+                                <xsd:complexType>
+                                    <xsd:sequence>
+                                        <xsd:element name="namecomet" type="xsd:string"/>
+                                        <xsd:element name="prefix" type="xsd:string"/>
+                                    </xsd:sequence>
+                                </xsd:complexType>
+                            </xsd:element>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>
