@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<galaxy>
+<ns2:galaxy xmlns:ns2="http://www.rsatu.ru/galv_2">
     <namegalaxy>mygalaxy</namegalaxy>
-</galaxy>
+</ns2:galaxy>

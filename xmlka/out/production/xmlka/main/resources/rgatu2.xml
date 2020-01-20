@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><univer>
+<?xml version="1.0" encoding="UTF-8"?>
+<univer>
     <nameuniver>Рыбинский Государственный Авиационный Технический Университет</nameuniver>
     <godosnovania>10.02.1932</godosnovania>
  
@@ -46,7 +47,7 @@
 					<lastname>Петрова</lastname>
 				    </student>
 			   
-			<student><firstname>Кот</firstname><midlename>Котеевич</midlename><lastname>Котейкин</lastname></student></napravlenie>
+			</napravlenie>
 			<napravlenie>
 			    <namenapr>Программная инженерия</namenapr>
 			    <id>12</id>

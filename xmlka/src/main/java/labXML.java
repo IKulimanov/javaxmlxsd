@@ -1,3 +1,5 @@
+package main.java;
+
 import org.w3c.dom.*;
 import org.xml.sax.SAXException;
 
@@ -35,7 +37,6 @@ public class labXML {
         if (text != null && !text.isEmpty() && !text.contains("\n")) {
             System.out.println(prefix+":"+text + "\"");
         }
-
 
         NodeList children = node.getChildNodes();
         for (int i = 0; i < children.getLength(); i++) {

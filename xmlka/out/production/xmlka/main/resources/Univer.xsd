@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="univer" type="infuniver"/>    
+       
+    <xs:complexType name="infuniver">
+        <xs:sequence>
+            <xs:element name = "nameuniver" type="xs:typestr" />
+            <xs:element name="godosnovania" type="xs:typedat" />
+            <xs:element name="fakultet" type="inffac" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType> 
+         
+    <xs:complexType name="inffac" >
+        <xs:sequence>
+            <xs:element name = "namefak" type="xs:typestr" />
+            <xs:element name = "dekan" type="xs:infoperson" />
+            <xs:element name="napravlenie" type="infnapr" maxOccurs="unbounded"/>
+        </xs:sequence> 
+    </xs:complexType>
+                    
+    <xs:complexType name="infnapr">
+        <xs:sequence>
+            <xs:element name = "namenapr" type="xs:typestr"/>
+            <xs:element name = "id" type="xs:typeint"/>
+            <xs:element name="predmet" type="infpredmet" maxOccurs="20"/>
+            <xs:element name="student" type="xs:infoperson" maxOccurs="200"/>
+        </xs:sequence> 
+    </xs:complexType>
+
+    <xs:complexType name="infpredmet">
+        <xs:sequence>
+            <xs:element name = "namepredmet" type="xs:typestr"/>
+            <xs:element name = "numaudit" type="xs:typeint"/>
+            <xs:element name="prepod" type="infoperson"/>
+        </xs:sequence> 
+    </xs:complexType>
+    
+    <xs:complexType name="infoperson">
+        <xs:sequence>
+            <xs:element name = "firstname" type="xs:typestr"/>
+            <xs:element name = "midlename" type="xs:typestr"/>
+            <xs:element name = "lastname" type="xs:typestr"/>
+            <xs:element name = "nomertel" type="xs:typenumtel" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:simpleType name="typestr">
+    <xs:restriction base="xs:string">
+        <xs:pattern value="[А-Яа-я]{40}"/>
+    </xs:restriction>
+    </xs:simpleType>                         
+     
+    <xs:simpleType name="typeint">
+    <xs:restriction base="xs:integer">
+        <xs:pattern value="[0-9]{20}"/>
+    </xs:restriction>
+    </xs:simpleType>                    
+                        
+    <xs:simpleType name="typenumtel">
+    <xs:restriction base="xs:string">
+          <xs:pattern value="\([0-9]{3}\) [0-9]{3}-[0-9]{4}"/>
+    </xs:restriction>
+    </xs:simpleType>                   
+     
+    <xs:simpleType name="typedat">
+    <xs:restriction base="xs:string">
+          <xs:pattern value="[0-3][0-9].[0-1][0-9].[0-9]{4}"/>
+    </xs:restriction>
+    </xs:simpleType>                   
+
+</xs:schema> 

@@ -1,7 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b3bc1cf-8c56-4315-958c-d39b2ff40947" name="Default Changelist" comment="" />
+    <list default="true" id="0b3bc1cf-8c56-4315-958c-d39b2ff40947" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xmlka/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xmlka/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mygalaxy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/galv_2.xsd" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/galv_2.xsd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/login/app/ObjectFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/login/app/ObjectFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/galv_2.xsd" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/galv_2.xsd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/com/login/app/Comettype.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/jaxb/com/login/app/Comettype.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/com/login/app/Galtype.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/jaxb/com/login/app/Galtype.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/com/login/app/ObjectFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/jaxb/com/login/app/ObjectFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/com/login/app/Plansystype.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/jaxb/com/login/app/Plansystype.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/com/login/app/Plantype.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/jaxb/com/login/app/Plantype.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/com/login/app/Sputtype.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/jaxb/com/login/app/Sputtype.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/com/login/app/Startype.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/jaxb/com/login/app/Startype.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jaxb_more-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/jaxb_more-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xmlka/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../xmlka/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xmlka/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../xmlka/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xmlka/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../xmlka/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xmlka/.idea/xmlka.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../xmlka/.idea/xmlka.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xmlka/other.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../xmlka/other.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xmlka/src/main/java/labXML.java" beforeDir="false" afterPath="$PROJECT_DIR$/../xmlka/src/main/java/labXML.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xmlka/src/main/resources/Univer2.xsd" beforeDir="false" afterPath="$PROJECT_DIR$/../xmlka/src/main/resources/Univer2.xsd" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +44,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1Ug0URg65pDSnejJp2RZXCfyX4p" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,9 +56,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavaProjects" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -83,6 +118,7 @@
       <workItem from="1577443446487" duration="3894000" />
       <workItem from="1578480087114" duration="1309000" />
       <workItem from="1579031650079" duration="4547000" />
+      <workItem from="1579086353161" duration="5627000" />
     </task>
     <servers />
   </component>
@@ -98,22 +134,22 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1579037325262" />
-    <state width="1807" height="277" key="GridCell.Tab.0.bottom" timestamp="1579036682169">
+    <state width="1807" height="277" key="GridCell.Tab.0.bottom" timestamp="1579094842263">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="277" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1579036682169" />
-    <state width="1807" height="277" key="GridCell.Tab.0.center" timestamp="1579036682169">
+    <state width="1807" height="277" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1579094842263" />
+    <state width="1807" height="277" key="GridCell.Tab.0.center" timestamp="1579094842262">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="277" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1579036682169" />
-    <state width="1807" height="277" key="GridCell.Tab.0.left" timestamp="1579036682168">
+    <state width="1807" height="277" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1579094842262" />
+    <state width="1807" height="277" key="GridCell.Tab.0.left" timestamp="1579094842262">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="277" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1579036682168" />
-    <state width="1807" height="277" key="GridCell.Tab.0.right" timestamp="1579036682169">
+    <state width="1807" height="277" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1579094842262" />
+    <state width="1807" height="277" key="GridCell.Tab.0.right" timestamp="1579094842262">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="277" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1579036682169" />
+    <state width="1807" height="277" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1579094842262" />
     <state width="1807" height="344" key="GridCell.Tab.1.bottom" timestamp="1579036663667">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -146,16 +182,5 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="302" y="251" width="1372" height="603" key="new project wizard/67.27.1853.1053@67.27.1853.1053" timestamp="1577386840997" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/main.java</url>
-          <line>8</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

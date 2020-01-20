@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
-<xs:element name = "galaxy" type= "galtype"/>
-
+<xs:schema targetNamespace="http://www.rsatu.ru/galv_2" xmlns:tns="http://www.rsatu.ru/galv_2" xmlns:xs="http://www.w3.org/2001/XMLSchema" >
+<xs:element name = "galaxy" type= "tns:galtype" />
 <xs:complexType name="galtype">
 	<xs:sequence>
 		<xs:element name="namegalaxy" type="xs:string"/>
         <xs:element name="agegalaxy" type="xs:string"/>
         <xs:element name="typegalaxy" type="xs:string"/>
-        <xs:element name="planetsystem" type="plansystype" maxOccurs="unbounded"/>
+        <xs:element name="planetsystem" type="tns:plansystype" maxOccurs="unbounded"/>
 	</xs:sequence>
 </xs:complexType>
 
 <xs:complexType name="plansystype">
 	<xs:sequence>
 		<xs:element name="nameplanetsystem" type="xs:string"/>
-        <xs:element name="planet" type="plantype" maxOccurs="unbounded"/>
-		<xs:element name="star" type="startype" maxOccurs="unbounded" minOccurs="0"/>
-		<xs:element name="comet" type="comettype" maxOccurs="unbounded" minOccurs="0"/>
+        <xs:element name="planet" type="tns:plantype" maxOccurs="unbounded"/>
+		<xs:element name="star" type="tns:startype" maxOccurs="unbounded" minOccurs="0"/>
+		<xs:element name="comet" type="tns:comettype" maxOccurs="unbounded" minOccurs="0"/>
 	</xs:sequence>
 </xs:complexType>
 
@@ -25,7 +24,7 @@
 		<xs:element name="nameplanet" type="xs:string"/>
         <xs:element name="ageplanet" type="xs:string"/>
         <xs:element name="typeplanet" type="xs:string"/>
-        <xs:element name="sputnik" type="sputtype" maxOccurs="unbounded" minOccurs="0"/>
+        <xs:element name="sputnik" type="tns:sputtype" maxOccurs="unbounded" minOccurs="0"/>
 	</xs:sequence>
 </xs:complexType>
 

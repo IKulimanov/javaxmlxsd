@@ -1,10 +1,17 @@
 import com.login.app.*;
 import com.login.app.ObjectFactory;
+import com.sun.xml.bind.marshaller.NamespacePrefixMapper;
+
 import javax.xml.bind.*;
 
 public class main {
     public static void main(String[] args) {
         try {
+            NamespacePrefixMapper mapper = new NamespacePrefixMapper() {
+                public String getPreferredPrefix(String namespaceUri, String suggestion, boolean requirePrefix) {
+                    return "";
+                }
+            };
             // create a JAXBContext capable of handling classes generated into package
             javax.xml.bind.JAXBContext jaxbContext = javax.xml.bind.JAXBContext.newInstance(Galtype.class);
             // create an object to marshal
@@ -14,6 +21,7 @@ public class main {
 
             // create a Marshaller and do marshal
             javax.xml.bind.Marshaller marshaller = jaxbContext.createMarshaller();
+            marshaller.setProperty("com.sun.xml.bind.namespacePrefixMapper", mapper);
             marshaller.setProperty(javax.xml.bind.Marshaller.JAXB_FORMATTED_OUTPUT, Boolean.TRUE);
             marshaller.marshal(objectToMarshal, new java.io.FileOutputStream("mygalaxy.xml"));
         } catch (javax.xml.bind.JAXBException je) {
